@@ -8,7 +8,7 @@ import {
 } from "@testing-library/react";
 import { RemixFormProvider, useRemixForm, useRemixFormContext } from "./index";
 import React from "react";
-import { useFetcher, type Navigation } from "@remix-run/react";
+import { useFetcher, type Navigation } from "react-router-dom";
 
 const submitMock = vi.fn();
 const fetcherSubmitMock = vi.fn();
@@ -22,7 +22,7 @@ const useNavigationMock = vi.hoisted(() =>
   })),
 );
 
-vi.mock("@remix-run/react", () => ({
+vi.mock("react-router-dom", () => ({
   useSubmit: () => submitMock,
   useActionData: useActionDataMock,
   useFetcher: () => ({ submit: fetcherSubmitMock, data: {} }),
