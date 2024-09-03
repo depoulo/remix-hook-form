@@ -65,7 +65,7 @@
   },
   "homepage": "https://github.com/Code-Forge-Net/remix-hook-form#readme",
   "peerDependencies": {
-    "@remix-run/react": "^2.0.0",
+    "react-router-dom": "^6.26.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.0"
@@ -73,8 +73,7 @@
   "readme": "https://github.com/Code-Forge-Net/remix-hook-form#readme",
   "devDependencies": {
     "@hookform/resolvers": "^3.1.0",
-    "@remix-run/node": "^2.3.0",
-    "@remix-run/react": "^2.3.0",
+    "react-router-dom": "^6.26.1",
     "@testing-library/react": "^14.0.0",
     "@types/node": "^18.15.11",
     "@types/react": "^18.0.34",
@@ -96,5 +95,6 @@
     "vite": "^4.2.1",
     "vitest": "^2.0.3",
     "zod": "^3.21.4"
-  }
+  },
+  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a"
 }

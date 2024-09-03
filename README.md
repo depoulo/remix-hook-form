@@ -26,7 +26,7 @@ Here is an example usage of remix-hook-form. It will work with **and without** J
 
 ```ts
 import { useRemixForm, getValidatedFormData } from "remix-hook-form";
-import { Form } from "@remix-run/react";
+import { Form } from "react-router-dom";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as zod from "zod";
 import { ActionFunctionArgs, json } from "@remix-run/node"; // or cloudflare/deno
